@@ -11,3 +11,4 @@
 ^notes.md$
 /practical/data/arabidopsis_processed_data/*
 /practical/data/athaliana.raw
+/heavy_files/*
