@@ -1,0 +1,13 @@
+*.log
+*.fls
+*.out
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.swp
+/2020-10-09-Nantes/*
+/m2bi_2020/*
+^notes.md$
+/practical/data/arabidopsis_processed_data/*
+/practical/data/athaliana.raw
