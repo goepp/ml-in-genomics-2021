@@ -16,11 +16,19 @@ You need python3 and jupyter notebook. An easy way to set it up from scratch is:
 
 - Download [https://conda.io/en/master/miniconda.html](miniconda).
 
-- Install Jupyter Notebook using conda: `conda install -c conda-forge notebook`.
+- Create a conda environment: `conda create -n mlgen`.
 
-- Create a conda environment: `conda create -n mlgen`
+- Activate the conda env: `conda activate mlgen`.
 
-- Install modules: `conda install ipykernel seaborn pandas numpy sklearn matplotlib`
+- Install Jupyter Notebook: `conda install -c conda-forge notebook`.
+
+- Create your kernel: `python -m ipykernel install --user --name mlgen --display-name "Python (mlgen)"`
+
+- Install modules:
+```
+conda install ipykernel seaborn pandas numpy scikit-learn matplotlib # modules used in the practical
+conda install nb_convert_kernels # allows the kernel `Python (mlgen)` to be visible by jupyter notebook
+```
 
 ## Getting started
 
@@ -29,4 +37,5 @@ Run the jupyter notebook from within the conda env:
 conda activate mlgen
 jupyter notebook
 ```
-And your notebook should open in a web browser.
+And your notebook should open in a web browser. Now select the kernel `Python (mlgen)` inside Jupyter Notebook.
+You're good to go!
