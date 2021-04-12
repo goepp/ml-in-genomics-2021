@@ -1,6 +1,6 @@
 # 2021-ml-in-genomics
 
-Course material for the course *Machine Learning in Genomics*.
+Course material for the course [https://data-psl.github.io/intensive-week-genomics/](*Machine Learning in Genomics*), day 4.
 
 Includes slides of the lecture and the jupyter notebooks of the practical sessions.
 
