@@ -1,6 +1,6 @@
 # 2021-ml-in-genomics
 
-Course material for the course [https://data-psl.github.io/intensive-week-genomics/](*Machine Learning in Genomics*), day 4.
+Course material for the course [https://data-psl.github.io/intensive-week-genomics/](Machine Learning in Genomics), day 4.
 
 Includes slides of the lecture and the jupyter notebooks of the practical sessions.
 
@@ -27,7 +27,6 @@ You need python3 and jupyter notebook. An easy way to set it up from scratch is:
 - Install modules:
 ```
 conda install ipykernel seaborn pandas numpy scikit-learn matplotlib # modules used in the practical
-conda install nb_convert_kernels # allows the kernel `Python (mlgen)` to be visible by jupyter notebook
 ```
 
 ## Getting started
