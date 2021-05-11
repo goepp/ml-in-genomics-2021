@@ -1,8 +1,23 @@
 # 2021-ml-in-genomics
 
-Course material for the course [https://data-psl.github.io/intensive-week-genomics/](Machine Learning in Genomics), day 4.
+This repo contains the course material for the course *Feature selection in GWAS* given at the [Machine Learning in Genomics intensive week](https://data-psl.github.io/intensive-week-genomics/)(day 4).
+The slides are from [Chloé-Agathe Azencott](https://cazencott.info/).
 
-Includes slides of the lecture and the jupyter notebooks of the practical sessions.
+## Content of the course
+
+This repo includes the slides of the lecture and the jupyter notebooks of the practical sessions.
+The notebooks cover the same tools as the lecture:
+- practical1:
+	- T-test and Manhattan plots
+	- Linear regression
+	- Lasso
+- practical2:
+	- Elastic-net
+	- Multi-task lasso
+	- Network-constained lasso
+
+The practicals require writting very little code: most questions are about commenting on the results.
+Corrected version of the practicals are provided.
 
 ## Installation
 
@@ -10,7 +25,7 @@ Includes slides of the lecture and the jupyter notebooks of the practical sessio
 
 - You need to download the heavy files `athaliana_small.X.txt` and `athaliana_small.W.txt` [here](https://plmbox.math.cnrs.fr/d/fcf6f52656a9451ead65/) and place them in `practical/data/`.
 
-## Quick setup from scratch
+### Quick setup from scratch
 
 You need python3 and jupyter notebook. An easy way to set it up from scratch is:
 
@@ -29,7 +44,7 @@ You need python3 and jupyter notebook. An easy way to set it up from scratch is:
 conda install ipykernel seaborn pandas numpy scikit-learn matplotlib # modules used in the practical
 ```
 
-## Getting started
+### Getting started
 
 Run the jupyter notebook from within the conda env:
 ```
