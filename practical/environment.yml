@@ -1,0 +1,8 @@
+name: mlgen
+dependencies:
+        - python>=3.8
+        - seaborn 
+        - pandas 
+        - numpy
+        - scikit-learn
+        - matplotlib
