@@ -1,7 +1,7 @@
 # 2021-ml-in-genomics
 
-This repo contains the course material for the course *Feature selection in GWAS* given at the [Machine Learning in Genomics intensive week](https://data-psl.github.io/intensive-week-genomics/)(day 4).
-The slides are from [Chloé-Agathe Azencott](https://cazencott.info/).
+This repo contains the course material for the course *Feature selection in GWAS* given at the [Machine Learning in Genomics intensive week](https://data-psl.github.io/intensive-week-genomics/) (day 4).
+The slides are from [Chloé-Agathe Azencott](https://cazencott.info/) and the practicals are adapted from https://github.com/chagaz/ds3-2018-genetics.
 
 ## Content of the course
 
