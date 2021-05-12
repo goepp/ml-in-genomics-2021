@@ -4,9 +4,10 @@ channels:
   - defaults
 dependencies:
   - scikit-learn
-  - python>=3.8
   - seaborn
   - numpy
   - pandas
   - matplotlib
   - ipykernel
+  - nb_conda_kernels
+  - networkx
