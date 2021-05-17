@@ -23,7 +23,7 @@ Corrected version of the practicals are provided.
 
 - Clone the repository `git clone https://github.com/goepp/ml-in-genomics-2021/`
 
-- You need to download the heavy files `athaliana_small.X.txt` and `athaliana_small.W.txt` [here](https://plmbox.math.cnrs.fr/d/fcf6f52656a9451ead65/) and place them in `practical/data/`.
+- You need to download the heavy files `athaliana_small.X.txt` and `athaliana_small.W.txt` [here](https://plmbox.math.cnrs.fr/d/7f1fd70570144d398322/) and place them in `practical/data/`.
 
 ### Quick setup from scratch
 
