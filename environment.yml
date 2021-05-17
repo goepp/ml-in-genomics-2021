@@ -1,13 +1,10 @@
-name: mlgen
+name: mlgen_test
 channels:
   - conda-forge
 dependencies:
   - numpy
-  - psutil
-  - toolz
   - matplotlib
-  - dill
   - pandas
-  - partd
-  - bokeh
-  - dask
+  - seaborn
+  - scikit-learn
+  - notebook

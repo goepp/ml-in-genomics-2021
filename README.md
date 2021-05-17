@@ -27,29 +27,13 @@ Corrected version of the practicals are provided.
 
 ### Quick setup from scratch
 
-You need python3 and jupyter notebook. An easy way to set it up from scratch is:
+You need python3, conda, and jupyter notebook. An easy way to set things up from scratch is:
 
 - Download [https://conda.io/en/master/miniconda.html](miniconda).
 
-- Create a conda environment: `conda create -n mlgen`.
+- Create a conda environment: `conda env create --file=environment.yml`.
 
 - Activate the conda env: `conda activate mlgen`.
 
-- Install Jupyter Notebook: `conda install -c conda-forge notebook`.
-
-- Create your kernel: `python -m ipykernel install --user --name mlgen --display-name "Python (mlgen)"`
-
-- Install modules:
-```
-conda install ipykernel seaborn pandas numpy scikit-learn matplotlib # modules used in the practical
-```
-
-### Getting started
-
-Run the jupyter notebook from within the conda env:
-```
-conda activate mlgen
-jupyter notebook
-```
-And your notebook should open in a web browser. Now select the kernel `Python (mlgen)` inside Jupyter Notebook.
+- Run the jupyter notebook from within the conda env: `jupyter notebook` and your notebook should open in a web browser.
 You're good to go!
